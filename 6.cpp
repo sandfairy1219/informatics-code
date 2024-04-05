@@ -18,8 +18,30 @@ main(){
 	else if (n==1)
 	printf("가위");
 	else 
-	printf("오류");
+	printf("다시 입력");
+	
+	int n;                             // p.149 실습5 
+	scanf("%d", &n)
+	if(n>=90)
+	printf("A");
+	if (n<90 && n>=80)
+	printf("B");
+	if (n<80 && n>=70)
+	printf("C");
+	if(n<70)
+	printf("F")
 	
 	
+	
+	int n;                            // p.150 실습6 
+	scanf("%d", &n)
+	if(n>=90)
+	printf("A");
+	else if (n>=80)
+	printf("B");
+	else if(n>=70)
+	printf("C");
+	else 
+	printf("F");
 	
 }
