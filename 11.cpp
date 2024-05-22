@@ -1,7 +1,7 @@
 #include <iostream>
 main()
 {
-//	int a;                                 // p.154 1 ¹ø 
+//	int a;                                 // p.154 1 Â¹Ã¸ 
 //	int i;
 //	scanf("%d", &a);
 //	for (i = 1;i<=a;i++)
@@ -11,7 +11,7 @@ main()
 //		
 //	}
 //	
-//	int a;                                 // p.154 2 ¹ø 
+//	int a;                                 // p.154 2 Â¹Ã¸ 
 //	int i;
 //	scanf("%d", &a);
 //	for (i = 1;i<=a;i++)
