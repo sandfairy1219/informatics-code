@@ -2,36 +2,36 @@
 main(){
 	
 	int a,i;  
-	a=1;                             //p.155 ½Ç½À10 
+	a=1;                             //p.155 ì‹¤ìŠµ10 
 	for(a=1;a<=8;a++)
-//	while(a<8) //while¹® ¾µ¶§ 
+//	while(a<8) //whileë¬¸ ì“¸ë•Œ 
 	{
-//	a++; //while¹®¾µ¶§ 
+//	a++; //whileë¬¸ì“¸ë•Œ 
 	{
-		printf("%dÀÇ ¾à¼ö",a);
+		printf("%dì˜ ì•½ìˆ˜",a);
 		
 		
 		for(i=1;i<=a;i++)
 		
-//		i = 1; //while¹®¾µ ‹š 
+//		i = 1; //whileë¬¸ì“¸ Â‹Âš 
 //		while(i<=a){
 		
 	 	
 		if(a%i == 0)
 		printf("%d\n", i);
-//		i++; //while¹®¾µ¶§ 
+//		i++; //whileë¬¸ì“¸ë•Œ 
 		}
 		printf("\n");
 	
 
 }
-//	int n, j, i;                           //p.156 ½Ç½À11 
-//	scanf("%d", &n);
-//	for(i=1;i<=n;i++)
-//	{
-//		for(j=1;j<=i;j++)
-//	
-//	printf("*");
-//	printf("\n");
-//	}
+	int n, j, i;                           //p.156 ì‹¤ìŠµ11 
+	scanf("%d", &n);
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;j<=i;j++)
+	
+	printf("*");
+	printf("\n");
+	}
 }
